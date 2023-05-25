@@ -1,0 +1,26 @@
+.Login-container, .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body {
+    height: 100vh;
+}
+.Login-container {
+    border: thick solid black;
+    padding: 10px;
+}
+.Login-container form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: thin solid black;
+    gap: 1.5rem;
+}
+.Login-container form button {
+    width: 10rem;
+    display: block;
+    margin: auto;
+}
